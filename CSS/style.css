@@ -25,15 +25,127 @@ body{
     background: black url("../images/desktop/image-hero.jpg");
     object-fit: cover;
 }
+.menu_navigation{
+    margin-top:50px;
+    margin-left: 550px;
+    padding-top:15px;
+    text-align:right;
+    color:white;
+    background:black;
+    width: 50%;
+}
 
-.content{
-    grid-area: content;
-    margin-top: 100px;
+ul{
+
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+    padding:0;
+
+}
+li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    font-family: 'Alata', sans-serif;
+
 
 }
 
+.logo_text{
+    position:absolute;
+    margin-left:70px;
+    margin-top: 50px;
+    width: 200px;
+    height:50px;
+    background: black;
+}
+.logo{
+    font-family: 'Alata', sans-serif;
+    font-size: 35px;
+    color:white;
+}
+
+.banner_text{
+    width: 500px;
+    height:220px;
+    background:black;
+    margin-left: 70px;
+    margin-top:100px;
+    border: 1px solid white;
+}
+.inner_banner_text{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:0;
+    padding: 5px 5px 5px 5px;
+    font-size: 55px;
+    color: white;
+    text-align:justify;
+}
+
+.content{
+    grid-area: content;
+    margin-top: 150px;
+    background: blue;
+    height:180%;
+
+}
+.content_item1{
+    background: green;
+}
+
+.img-container{
+    height: 550px;
+    width:500px;
+
+}
+.content_item1_information{
+    position: absolute;
+    top:632px;
+    left:560px;
+    background: yellow;
+    height:150px;
+    width:450px;
+    padding: 80px 80px 100px 80px;
+
+}
+.content_item1_information h2{
+    font-family: "Josefin Sans",sans-serif;
+    padding:0;
+    font-size: 35px;
+}
+
+.content_item2{
+    margin-top: 40px;
+    background: pink;
+    width:100%;
+}
+
+.content_item2_information{
+    width:100%;
+    background: aqua;
+
+
+}
+.content_item2_information h2{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+    padding:5px 10px 5px 10px;
+
+}
+.content_item2_information a{
+    position: absolute;
+    top:1075px;
+    left:1000px;
+    text-decoration: none;
+    border:1px solid black;
+    color: black;
+    padding:5px 20px 5px 20px;
+}
+.images_panel{
+    margin-top: 50px;
+}
 .footer{
     grid-area: footer;
-    margin-top:550px;
+    margin-top:1500px;
 
 }
