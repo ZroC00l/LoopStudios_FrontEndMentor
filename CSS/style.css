@@ -42,6 +42,10 @@ ul{
     padding:0;
 
 }
+ul a{
+    text-decoration:none;
+    color: white;
+}
 li{
     display:inline;
     padding:10px 10px 10px 10px;
@@ -57,6 +61,10 @@ li{
     width: 200px;
     height:50px;
     background: black;
+}
+.logo_text a{
+    text-decoration: none;
+    color: white;
 }
 .logo{
     font-family: 'Alata', sans-serif;
@@ -99,7 +107,7 @@ li{
 }
 .content_item1_information{
     position: absolute;
-    top:632px;
+    top:652px;
     left:560px;
     background: yellow;
     height:150px;
@@ -117,6 +125,7 @@ li{
     margin-top: 40px;
     background: pink;
     width:100%;
+    height:100%;
 }
 
 .content_item2_information{
@@ -137,15 +146,77 @@ li{
     top:1075px;
     left:1000px;
     text-decoration: none;
-    border:1px solid black;
+    border:2px solid black;
     color: black;
     padding:5px 20px 5px 20px;
+    border-radius: 3px;
 }
 .images_panel{
-    margin-top: 50px;
+
+    background: chartreuse;
+    height:160%;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4, 30vh);
+    grid-template-rows: repeat(4, 30vw);
+    grid-row-gap: 50px;
+
 }
+figure {
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+
+}
+
+.img_gallery{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+
+}
+
 .footer{
     grid-area: footer;
-    margin-top:1500px;
+    margin-top:1550px;
+    background: black;
+    width:100%;
+    height:100%;
 
+}
+
+.footer a{
+    background: yellow;
+    margin-top:20px;
+    margin-left: 60px;
+    float:left;
+    text-decoration: none;
+    color:white;
+    font-family: 'Alata', sans-serif;
+    font-size:25px;
+}
+.social_media_icons{
+    background: mediumaquamarine;
+    margin-top:20px;
+    text-align:right;
+    float:right;
+
+}
+.footer_navigation{
+    background: purple;
+    float:left;
+    margin-left:-13%;
+    margin-top: 120px;
+    text-align:left;
+    color:white;
+
+}
+.footer_copyright{
+    background: salmon;
+    margin-top: 115px;
+    margin-right: -26.222%;
+    float:right;
+    padding-right: 50px;
+    text-align: center;
+    color:white;
 }
